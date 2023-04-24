@@ -296,27 +296,6 @@ SELECT
 FROM
     ingezetenen_jn;
 
-INSERT INTO ingezetenen (
-    ingezetene_id,
-    id_nummer,
-    familienaam,
-    voornaam,
-    nationaliteit,
-    adres,
-    geboortedatum,
-    geslacht,
-    district
-) VALUES (
-    10,
-    'HK127208',
-    'Munnik',
-    'Ruben',
-    'Nederlandse',
-    'edelstraat 13',
-    '13 feb 1996',
-    1,
-    'Paramaribo'
-);
 
 DELETE FROM ingezetenen
 WHERE
